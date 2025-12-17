@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use this software for research, please cite this software and the related papers listed below."
+type: software
+title: "Renewable-based Virtual Power Plant (RVPP)"
+version: "1.0.0"
+date-released: "2025-12-17"
+license: "Apache-2.0"
+url: "https://github.com/hadinemati70/Renewable-based-Virtual-Power-Plant"
+
+authors:
+  - family-names: "Nemati"
+    given-names: "Hadi"
+    affiliation: "Institute of Research in Technology, ICAI School of Engineering, Comillas Pontifical University, Madrid, Spain"
+    email: "hnemati@comillas.edu"
+
+references:
+  - type: article
+    authors:
+      - family-names: "Nemati"
+        given-names: "Hadi"
+      - family-names: "Sánchez-Martín"
+        given-names: "Pedro"
+      - family-names: "Ortega"
+        given-names: "Álvaro"
+      - family-names: "Sigrist"
+        given-names: "Lukas"
+      - family-names: "Lobato"
+        given-names: "Enrique"
+      - family-names: "Rouco"
+        given-names: "Luis"
+    title: "Flexible robust optimal bidding of renewable virtual power plants in sequential markets under asymmetric uncertainties"
+    journal: "Sustainable Energy, Grids and Networks"
+    year: 2025
+    doi: "10.1016/j.segan.2025.101801"
+
+  - type: article
+    authors:
+      - family-names: "Nemati"
+        given-names: "Hadi"
+      - family-names: "Sánchez-Martín"
+        given-names: "Pedro"
+      - family-names: "Baringo"
+        given-names: "Ana"
+      - family-names: "Ortega"
+        given-names: "Álvaro"
+    title: "Single-level flexible robust optimal bidding of renewable-only virtual power plant in energy and secondary reserve markets"
+    journal: "Energy"
+    year: 2025
+    doi: "10.1016/j.energy.2025.136421"
+
+  - type: article
+    authors:
+      - family-names: "Nemati"
+        given-names: "Hadi"
+      - family-names: "Sánchez-Martín"
+        given-names: "Pedro"
+      - family-names: "Sigrist"
+        given-names: "Lukas"
+      - family-names: "Rouco"
+        given-names: "Luis"
+      - family-names: "Ortega"
+        given-names: "Álvaro"
+    title: "Flexible robust optimization for renewable-only VPP bidding on electricity markets with economic risk analysis"
+    journal: "International Journal of Electrical Power & Energy Systems"
+    volume: 167
+    year: 2025
+    doi: "10.1016/j.ijepes.2025.110594"
