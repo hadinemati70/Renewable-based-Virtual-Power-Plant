@@ -1,0 +1,97 @@
+* Defining range of input parameters in Excel
+
+
+* Global parameters
+par = pGlobal	                        rng=Global_params!A1:B1000	    rDim=1 cDim=0 trace=3
+par = pGlobal_second_data               rng=Global_params!F15:O1000         rDim=1 cDim=1 trace=3
+par = pGlobal_third_data                rng=Global_params!Q15:Z1000         rDim=1 cDim=1 trace=3
+
+* Bus data
+set = b                                 rng=Buses!A16                       rDim=1 cDim=0 trace=3    
+set = x                                 rng=Buses!B16         	    	    rDim=1 cDim=0 trace=3  
+set = bx                                rng=Buses!A16:B1000         	    rDim=2 cDim=0 trace=3
+par = pBus_first_data                   rng=Buses!A15:C1000  	    	    rDim=1 cDim=1 trace=3
+par = pBus_second_data                  rng=Buses!E15:F1000  	    	    rDim=1 cDim=1 trace=3
+
+* TSO data
+par = pTSO_data                         rng=TSO!A15:B1000                   rDim=1 cDim=1 trace=3
+
+* VPP units data
+set = u                                 rng=VPP_Units!A16                   rDim=1 cDim=0 trace=3
+set = y	                                rng=VPP_Units!C16                   rDim=1 cDim=0 trace=3
+set = uby                               rng=VPP_Units!A16:C1000             rDim=3 cDim=0 trace=3
+set = uy                                rng=VPP_Units!E16:F1000             rDim=2 cDim=0 trace=3
+set = incTSSTH                          rng=VPP_Units!H16:I1000             rDim=2 cDim=0 trace=3
+par = pVPP_Units_data	                rng=VPP_Units!K15:K1000	            rDim=1 cDim=0 trace=3
+
+
+*Line data
+set = l                                 rng=Line!A16                        rDim=1 cDim=0 trace=3  
+set = incORI                            rng=Line!E16:F1000                  rDim=2 cDim=0 trace=3
+set = incDES                            rng=Line!H16:I1000                  rDim=2 cDim=0 trace=3
+par = pLine_data                        rng=Line!A15:C1000                  rDim=1 cDim=1 trace=3
+
+* NDRES forecast data
+par = pForecast_energy_data             rng=Energy_Forecast!A15:T1000       rDim=2 cDim=1 trace=3
+
+
+* Price forecast data
+set = t                                 rng=Price_Forecast!A16              rDim=1 cDim=0 trace=3
+par = pForecast_price_data              rng=Price_Forecast!A15:AJ1000       rDim=1 cDim=1 trace=3
+
+* NDRES data
+par = pNDRES_data                       rng=NDRES!A15:F1000                 rDim=1 cDim=1 trace=3 
+
+*STH data
+set = i                                 rng=STH!Q16                         rDim=1 cDim=0 trace=3
+par = pSTH_first_data                   rng=STH!A15:D1000                   rDim=2 cDim=1 trace=3
+par = pSTH_second_data                  rng=STH!F15:N1000                   rDim=1 cDim=1 trace=3
+par = pSTH_third_data                   rng=STH!P15:S1000                   rDim=2 cDim=1 trace=3
+
+*DRES data
+par = pDRES_first_data                  rng=DRES!A15:D1000                  rDim=2 cDim=1 trace=3
+par = pDRES_second_data                 rng=DRES!F15:X1000                  rDim=1 cDim=1 trace=3
+par = pDRES_third_data                  rng=DRES!Z15:AC1000                 rDim=2 cDim=1 trace=3
+
+*ESS data
+par = pESS_data                         rng=ESS!A15:M1000                   rDim=1 cDim=1 trace=3
+
+* Demand data
+set = v                                 rng=Demand!Y16                      rDim=1 cDim=0 trace=3
+set = lp                                rng=Demand!G16                      rDim=1 cDim=0 trace=3
+par = pDemand_first_data                rng=Demand!A15:D1000                rDim=3 cDim=1 trace=3
+par = pDemand_second_data               rng=Demand!F15:H1000                rDim=2 cDim=1 trace=3
+par = pDemand_third_data                rng=Demand!J15:M1000                rDim=2 cDim=1 trace=3
+par = pDemand_fourth_data               rng=Demand!O15:W1000                rDim=1 cDim=1 trace=3
+par = pDemand_fifth_data                rng=Demand!Y15:AB1000               rDim=2 cDim=1 trace=3
+par = pDemand_sixth_data                rng=Demand!AD15:AO1000              rDim=3 cDim=1 trace=3
+
+*PCCs Trade data
+par = pTrade_first_data                 rng=Trade_PCC!A15:D1000             rDim=3 cDim=1 trace=3
+par = pTrade_second_data                rng=Trade_PCC!F15:I1000             rDim=2 cDim=1 trace=3
+par = pTrade_third_data                 rng=Trade_PCC!K15:L1000             rDim=1 cDim=1 trace=3
+par = pTrade_fourth_data                rng=Trade_PCC!N15:O1000             rDim=1 cDim=1 trace=3
+par = pTrade_fifth_data                 rng=Trade_PCC!Q15:S1000             rDim=1 cDim=1 trace=3
+par = pTrade_sixth_data                 rng=Trade_PCC!U15:X1000             rdim=2 cdim=1 trace=3
+par = pTrade_seventh_data               rng=Trade_PCC!Z15:AA1000     	    rDim=1 cDim=1 trace=3
+
+*Units Trade data
+par = pTrade_units_first_data           rng=Trade_Units!A15:E1000           rDim=3 cDim=1 trace=3
+par = pTrade_units_second_data          rng=Trade_Units!G15:K1000           rDim=3 cDim=1 trace=3
+par = pTrade_units_third_data           rng=Trade_Units!M15:Q1000           rDim=3 cDim=1 trace=3
+par = pTrade_units_fourth_data          rng=Trade_Units!S15:Y1000           rDim=3 cDim=1 trace=3
+par = pTrade_units_fifth_data           rng=Trade_Units!AA15:AC1000         rDim=2 cDim=1 trace=3
+par = pTrade_units_sixth_data           rng=Trade_Units!AE15:AG1000         rDim=2 cDim=1 trace=3
+par = pTrade_units_seventh_data         rng=Trade_Units!AI15:AK1000         rDim=2 cDim=1 trace=3
+par = pTrade_units_eighth_data          rng=Trade_Units!AM15:AO1000         rDim=2 cDim=1 trace=3
+par = pTrade_units_ninth_data           rng=Trade_Units!AQ15:AS1000         rDim=1 cDim=1 trace=3
+par = pTrade_units_tenth_data           rng=Trade_Units!AU15:AX1000         rdim=2 cdim=1 trace=3
+par = pTrade_units_eleventh_data        rng=Trade_Units!AZ15:BB1000         rdim=2 cdim=1 trace=3
+
+* Regret data
+set = z                                rng=Regret!A16                      rDim=1 cDim=0 trace=3
+par = pRegret_first_data               rng=Regret!A15:L1000                rDim=2 cDim=1 trace=3
+par = pRegret_second_data              rng=Regret!N15:O1000                rDim=1 cDim=1 trace=3
+
+par = pRegret_third_data	       rng=Regret!Q15:R24	           rDim=1 cDim=0 trace=3
+

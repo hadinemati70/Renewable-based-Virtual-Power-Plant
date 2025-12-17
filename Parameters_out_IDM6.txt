@@ -1,0 +1,19 @@
+* Defining range of output parameters in Excel
+
+* IDM results
+
+par = pOffer_IDM                    rng=IDM6!A15:B1000    rdim=1 cdim=1 trace=3
+par = pUnits_IDM                    rng=IDM6!D15:L1000    rdim=2 cdim=1 trace=3
+par = pUnits_reserve_IDM            rng=IDM6!N15:R1000    rdim=3 cdim=1 trace=3
+par = pSolve_IDM                    rng=IDM6!T15:T1000    rdim=1 cdim=0 trace=3
+
+par = pTrade_fourth_data            rng=Trade_PCC!N15:O1000       rDim=1 cDim=1 trace=3
+par = pTrade_sixth_data             rng=Trade_PCC!U15:X1000       rdim=2 cdim=1 trace=3 
+par = pTrade_seventh_data           rng=Trade_PCC!Z15:AA1000      rDim=1 cDim=1 trace=3
+
+par = pTrade_units_first_data       rng=Trade_Units!A15:E1000      rdim=3 cdim=1 trace=3
+par = pTrade_units_third_data       rng=Trade_Units!M15:Q1000      rdim=3 cdim=1 trace=3
+par = pTrade_units_sixth_data       rng=Trade_Units!AE15:AG1000   rdim=2 cdim=1 trace=3
+par = pTrade_units_seventh_data     rng=Trade_Units!AI15:AK1000   rdim=2 cdim=1 trace=3
+par = pTrade_units_eighth_data      rng=Trade_Units!AM15:AO1000   rdim=2 cdim=1 trace=3
+par = pTrade_units_tenth_data       rng=Trade_Units!AU15:AX1000   rdim=2 cdim=1 trace=3

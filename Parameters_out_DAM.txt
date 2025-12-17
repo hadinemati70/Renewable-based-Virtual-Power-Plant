@@ -1,0 +1,25 @@
+* Defining range of output parameters in Excel
+
+* DAM results
+
+par = pOffer_DAM                    rng=DAM!A15:D1000             rdim=1 cdim=1 trace=3
+par = pUnits_DAM                    rng=DAM!F15:N1000             rdim=2 cdim=1 trace=3
+par = pUnits_reserve_DAM            rng=DAM!P15:T1000             rdim=3 cdim=1 trace=3
+par = pSolve_DAM                    rng=DAM!V15:V1000             rdim=1 cdim=0 trace=3
+
+par = pTrade_second_data            rng=Trade_PCC!F15:I1000      rdim=2 cdim=1 trace=3 
+par = pTrade_third_data             rng=Trade_PCC!K15:L1000      rDim=1 cDim=1 trace=3
+par = pTrade_fourth_data            rng=Trade_PCC!N15:O1000      rDim=1 cDim=1 trace=3
+par = pTrade_fifth_data             rng=Trade_PCC!Q15:S1000      rDim=1 cDim=1 trace=3
+par = pTrade_sixth_data             rng=Trade_PCC!U15:X1000      rdim=2 cdim=1 trace=3 
+par = pTrade_seventh_data           rng=Trade_PCC!Z15:AA1000     rDim=1 cDim=1 trace=3
+
+
+par = pTrade_units_first_data       rng=Trade_Units!A15:E1000     rdim=3 cdim=1 trace=3
+par = pTrade_units_third_data       rng=Trade_Units!M15:Q1000     rdim=3 cdim=1 trace=3
+par = pTrade_units_fifth_data       rng=Trade_Units!AA15:AC1000   rdim=2 cdim=1 trace=3
+par = pTrade_units_sixth_data       rng=Trade_Units!AE15:AG1000   rdim=2 cdim=1 trace=3
+par = pTrade_units_seventh_data     rng=Trade_Units!AI15:AK1000   rdim=2 cdim=1 trace=3
+par = pTrade_units_eighth_data      rng=Trade_Units!AM15:AO1000   rdim=2 cdim=1 trace=3
+par = pTrade_units_tenth_data       rng=Trade_Units!AU15:AX1000   rdim=2 cdim=1 trace=3
+par = pTrade_units_eleventh_data    rng=Trade_Units!AZ15:BB1000   rdim=2 cdim=1 trace=3
